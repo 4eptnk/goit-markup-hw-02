@@ -1,0 +1,27 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+span {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+}
+header > a {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+footer > a {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+nav :hover,
+nav :focus {
+  color: #2196f3;
+}
+.navigation {
+}

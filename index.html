@@ -10,7 +10,7 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
@@ -23,22 +23,33 @@
       <a class="webstudio" href="/" lang="en"><span>Web</span>Studio</a>
       <nav>
         <ul>
-          <li class="navigation"><a href="/index.html">студия</a></li>
-          <li class="navigation"><a href="/portfolio.html">Портфолио</a></li>
-          <li class="navigation"><a href="/">Контакты</a></li>
+          <li><a href="/index.html" class="nav-link">студия</a></li>
+          <li><a href="/portfolio.html" class="nav-link">Портфолио</a></li>
+          <li><a href="/" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a href="tel:+38096-111-11-11">+38096-111-11-11</a></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li>
+          <a href="tel:+38096-111-11-11" class="contacts">+38096-111-11-11</a>
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="contacts"
+            >info@devstudio.com</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <!--Герой-->
 
       <section>
-        <h1>эффективные решения вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <h1>
+          эффективные решения <br />
+          вашего бизнеса
+        </h1>
+        <nav>
+          <button type="button" class="buttons">Заказать услугу</button>
+        </nav>
       </section>
 
       <!--особенности-->
@@ -46,28 +57,28 @@
       <section>
         <h2 hidden>--особенности--</h2>
         <ul>
-          <li>
+          <li class="features">
             <h3>внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="features">
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="features">
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="features">
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -77,7 +88,7 @@
         </ul>
       </section>
 
-      <!--чем мы занимаемся-->
+      <!--о компании-->
 
       <section>
         <h2>Чем мы занимаемся</h2>
@@ -92,8 +103,8 @@
 
       <section>
         <ul>
-          <li><h2>Наша команда</h2></li>
-          <li>
+          <li><h2 class="command-title">Наша команда</h2></li>
+          <li class="our-command">
             <img
               src="/photo/работник(1).jpg"
               width="270"
@@ -102,12 +113,12 @@
             <h3>Игорь Демьяненко</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="our-command">
             <img src="/photo/работник(4).jpg" width="270" alt="Ольга Репина" />
             <h3>Ольга Репина</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="our-command">
             <img
               src="/photo/работник(3).jpg"
               width="270"
@@ -116,7 +127,7 @@
             <h3>Николай Тарасов</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="our-command">
             <img
               src="/photo/работник(2).jpg"
               width="270"
@@ -135,8 +146,14 @@
       <a href="/"> <span>Web</span>Studio</a>
       <address>г. Киев, пр-т Леси Украинки, 26</address>
       <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+38-099-111-11-11">+38-099-111-11-11</a></li>
+        <li>
+          <a href="mailto:info@example.com" class="contacts"
+            >info@example.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+38-099-111-11-11" class="contacts">+38-099-111-11-11</a>
+        </li>
       </ul>
     </footer>
   </body>

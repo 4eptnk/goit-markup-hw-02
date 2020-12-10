@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
+  color: #212121;
 }
 a {
   text-decoration: none;
@@ -43,18 +44,18 @@ footer > a {
 
 /* навигация шапка */
 
-nav :hover,
-nav :focus,
-nav :active {
+.nav-link :hover,
+.nav-link :focus,
+.nav-link :active {
   color: #2196f3;
 }
 
-.nav-link {
+.nav-link > a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: inherit;
 }
 
 /* контакты */
@@ -109,7 +110,7 @@ section > h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
-  color: #212121;
+  color: inherit;
 }
 .features > p {
   font-weight: normal;
@@ -125,7 +126,7 @@ section > h2 {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: inherit;
 }
 
 .our-command {
@@ -136,7 +137,7 @@ section > h2 {
 }
 
 .our-command > h3 {
-  color: #212121;
+  color: inherit;
 }
 
 .our-command > p {
@@ -149,7 +150,7 @@ section > h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: inherit;
 }
 
 .portfolio > p {

@@ -80,9 +80,9 @@ address {
 
 /* кнопки */
 
-.buttons :active,
-.buttons :focus,
-.buttons :hover {
+.button-link :active,
+.button-link :focus,
+.button-link :hover {
   color: #2196f3;
 }
 

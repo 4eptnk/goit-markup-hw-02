@@ -1,3 +1,11 @@
+:root {
+  --main-title-color: #ffffff;
+  --main-text-color: #757575;
+  --main-logo-color: #2196f3;
+  --second-logo-color: #000000;
+  --main-black-color: #212121;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -21,7 +29,7 @@ button {
 
 /* логотип */
 span {
-  color: #2196f3;
+  color: var(--main-logo-color);
 }
 
 header > a {
@@ -30,7 +38,7 @@ header > a {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--second-logo-color);
 }
 footer > a {
   font-family: Raleway;
@@ -39,7 +47,7 @@ footer > a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 
 /* навигация шапка */
@@ -47,7 +55,7 @@ footer > a {
 .nav-link :hover,
 .nav-link :focus,
 .nav-link :active {
-  color: #2196f3;
+  color: var(--main-logo-color);
 }
 
 .nav-link > a {
@@ -55,7 +63,7 @@ footer > a {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--main-black-color);
 }
 
 /* контакты */
@@ -75,7 +83,7 @@ address {
   line-height: 1.7;
   letter-spacing: 0.03em;
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 
 /* кнопки */
@@ -83,7 +91,7 @@ address {
 .button-link :active,
 .button-link :focus,
 .button-link :hover {
-  color: #2196f3;
+  color: var(--main-logo-color);
 }
 
 /* герой */
@@ -94,7 +102,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-title-color);
   background-color: #2f303a;
 }
 
@@ -111,13 +119,13 @@ section > h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.15;
-  color: inherit;
+  color: var(--main-black-color);
 }
 .features > p {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--main-text-color);
 }
 /* наша команда */
 
@@ -127,7 +135,7 @@ section > h2 {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: inherit;
+  color: var(--main-black-color);
 }
 
 .our-command {
@@ -145,7 +153,7 @@ section > h2 {
 }
 
 .our-command > p {
-  color: #757575;
+  color: var(--main-text-color);
 }
 /* портфолио */
 
@@ -154,7 +162,7 @@ section > h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: inherit;
+  color: var(--main-black-color);
 }
 
 .portfolio > p {
@@ -162,5 +170,5 @@ section > h2 {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
